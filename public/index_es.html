@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EnglishGo — Inglés de Viaje, 44 Fonemas IPA, 100 Vídeos Reales y Traducción en Vivo</title>
+<meta name="description" content="Domina el inglés práctico de viaje con 15 unidades, 44 fonemas IPA EE. UU./RU, 24 pares mínimos, 100 vídeos de diálogo real, Tutor Oral en el dispositivo e Intérprete Bidireccional en Vivo.">
+<meta name="keywords" content="EnglishGo,ingles viajes,fonetica ipa,pares minimos,practica voz ingles,traduccion voz ingles,dialogos viaje,AE Interactive">
+<meta name="theme-color" content="#070913">
+<link rel="canonical" href="https://englishgo.appengine.fun/?lang=es">
+<link rel="alternate" hreflang="en" href="https://englishgo.appengine.fun/?lang=en">
+<link rel="alternate" hreflang="zh-Hant" href="https://englishgo.appengine.fun/?lang=zh-Hant">
+<link rel="alternate" hreflang="zh-Hans" href="https://englishgo.appengine.fun/?lang=zh-Hans">
+<link rel="alternate" hreflang="es" href="https://englishgo.appengine.fun/?lang=es">
+<link rel="alternate" hreflang="ja" href="https://englishgo.appengine.fun/?lang=ja">
+<link rel="alternate" hreflang="x-default" href="https://englishgo.appengine.fun/">
+<link rel="icon" type="image/png" href="/images/icon.png">
+<link rel="apple-touch-icon" href="/images/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="EnglishGo — Inglés de Viaje, 44 Fonemas IPA, 100 Vídeos Reales y Traducción en Vivo">
+<meta property="og:description" content="Domina el inglés práctico de viaje con 15 unidades, 44 fonemas IPA EE. UU./RU, 24 pares mínimos, 100 vídeos de diálogo real, Tutor Oral en el dispositivo e Intérprete Bidireccional en Vivo.">
+<meta property="og:url" content="https://englishgo.appengine.fun/?lang=es">
+<meta property="og:image" content="https://englishgo.appengine.fun/images/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://englishgo.appengine.fun/images/og.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "EnglishGo Travel English", "operatingSystem": "iOS 17.0+, iPadOS 17.0+", "applicationCategory": "EducationApplication", "url": "https://englishgo.appengine.fun", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "AE Interactive", "url": "https://appengine.fun"}}</script>
+<style>
+:root {
+  --bg: #070913;
+  --card: rgba(20, 24, 42, 0.86);
+  --card-solid: #14182a;
+  --border: rgba(255, 255, 255, 0.11);
+  --text: #F8FAFC;
+  --muted: #94A3B8;
+  --indigo: #6366F1;
+  --teal: #2DD4BF;
+  --coral: #FB7185;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "PingFang TC", "PingFang SC", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image:
+    radial-gradient(ellipse 80% 42% at 50% -5%, rgba(99, 102, 241, 0.24) 0%, transparent 70%),
+    radial-gradient(circle at 86% 18%, rgba(45, 212, 191, 0.14) 0%, transparent 45%);
+  background-repeat: no-repeat;
+}
+a { color: inherit; }
+header { position: sticky; top: 12px; z-index: 100; padding: 0 16px; }
+nav {
+  max-width: 980px; margin: 0 auto; padding: 10px 16px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  background: rgba(11, 14, 28, 0.84);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border); border-radius: 999px;
+  box-shadow: 0 12px 34px rgba(0,0,0,0.45);
+}
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 17px; letter-spacing: -0.3px; }
+.brand img { width: 34px; height: 34px; border-radius: 9px; border: 1px solid rgba(45, 212, 191, 0.45); }
+.nav-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.nav-links { display: flex; gap: 14px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.nav-links a { text-decoration: none; transition: color .18s; }
+.nav-links a:hover, .nav-links a.active { color: #fff; }
+.lang-picker {
+  display: flex; align-items: center; gap: 4px;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.09);
+  padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700;
+}
+.lang-picker a { color: var(--muted); text-decoration: none; padding: 2px 5px; border-radius: 99px; }
+.lang-picker a.active { color: var(--teal); background: rgba(45,212,191,0.14); }
+main { max-width: 980px; margin: 0 auto; padding: 36px 18px 64px; }
+.hero { text-align: center; padding: 20px 0 36px; }
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: 0.7px;
+  color: var(--teal); background: rgba(45,212,191,0.12);
+  border: 1px solid rgba(45,212,191,0.34); padding: 6px 14px; border-radius: 999px; margin-bottom: 16px;
+}
+h1 { font-size: clamp(30px, 5.4vw, 54px); font-weight: 900; letter-spacing: -1.1px; line-height: 1.12; margin-bottom: 14px; text-wrap: balance; }
+h1 span { background: linear-gradient(125deg, #818CF8 0%, #2DD4BF 62%, #FB7185 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero-sub { max-width: 680px; margin: 0 auto 22px; color: var(--muted); font-size: clamp(15px, 2vw, 18px); text-wrap: balance; }
+.status-pill {
+  display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px;
+  background: rgba(99,102,241,0.14); border: 1px solid rgba(99,102,241,0.38);
+  color: #C7D2FE; font-size: 13px; font-weight: 700; margin-bottom: 22px;
+}
+.hero-cta { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 999px;
+  font-size: 14px; font-weight: 700; text-decoration: none; border: 1px solid transparent; cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-primary { background: linear-gradient(135deg, #6366F1, #14B8A6); color: #fff; box-shadow: 0 10px 26px rgba(99,102,241,0.32); }
+.btn-ghost { background: rgba(255,255,255,0.06); border-color: var(--border); color: #E2E8F0; }
+.btn-appstore {
+  background: #fff; color: #090D16; border: 1px solid rgba(255,255,255,0.85);
+  padding: 9px 20px; gap: 10px; box-shadow: 0 12px 30px rgba(255,255,255,0.16), 0 8px 24px rgba(99,102,241,0.28);
+}
+.btn-appstore svg { width: 20px; height: 24px; fill: currentColor; flex-shrink: 0; }
+.btn-appstore .as-copy { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.12; text-align: left; }
+.btn-appstore .as-sub { font-size: 10px; font-weight: 700; opacity: 0.72; letter-spacing: 0.2px; }
+.btn-appstore .as-main { font-size: 15px; font-weight: 850; letter-spacing: -0.2px; }
+.nav-cta {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 999px;
+  background: linear-gradient(135deg, #6366F1, #14B8A6); color: #fff; text-decoration: none;
+  font-size: 12.5px; font-weight: 800; box-shadow: 0 4px 14px rgba(99,102,241,0.35);
+  transition: transform .16s ease, filter .16s ease;
+}
+.nav-cta:hover { transform: translateY(-1px); filter: brightness(1.08); }
+.pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
+.price-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 22px; padding: 24px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 18px;
+}
+.price-card.pro {
+  border-color: rgba(45, 212, 191, 0.55);
+  background: linear-gradient(160deg, rgba(99,102,241,0.16), rgba(20,24,42,0.94) 45%, rgba(20,184,166,0.14));
+  box-shadow: 0 18px 40px rgba(0,0,0,0.42);
+}
+.price-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.price-tag { font-size: 11px; font-weight: 800; color: var(--teal); letter-spacing: 0.4px; margin-bottom: 4px; }
+.price-title { font-size: 20px; font-weight: 850; color: #fff; }
+.price-num { font-size: 26px; font-weight: 900; color: #fff; white-space: nowrap; }
+.price-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.price-list li { display: flex; gap: 9px; font-size: 14px; color: #CBD5E1; line-height: 1.45; }
+.price-list li span.chk { color: var(--teal); font-weight: 900; flex-shrink: 0; }
+.price-card .btn-appstore { justify-content: center; }
+.cta-banner {
+  margin-top: 56px; padding: 34px 24px; border-radius: 26px; text-align: center;
+  background: linear-gradient(135deg, rgba(99,102,241,0.22), rgba(20,184,166,0.18));
+  border: 1px solid rgba(45,212,191,0.35);
+  display: flex; flex-direction: column; align-items: center; gap: 14px;
+}
+.cta-banner img { width: 64px; height: 64px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.25); box-shadow: 0 10px 28px rgba(0,0,0,0.4); }
+.cta-banner h2 { margin-bottom: 0; }
+.cta-banner p { color: #CBD5E1; max-width: 540px; font-size: 15px; }
+section { margin-top: 56px; }
+.sec-head { text-align: center; margin-bottom: 24px; }
+.sec-head .badge { margin-bottom: 10px; }
+h2 { font-size: clamp(22px, 3.6vw, 34px); font-weight: 850; letter-spacing: -0.6px; margin-bottom: 8px; }
+.sec-sub { color: var(--muted); max-width: 620px; margin: 0 auto; font-size: 15px; }
+.audio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.audio-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 16px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 12px;
+  transition: border-color .2s, transform .2s;
+}
+.audio-card.playing { border-color: var(--teal); box-shadow: 0 0 0 1px rgba(45,212,191,0.3), 0 14px 32px rgba(0,0,0,0.4); }
+.audio-tag { font-size: 11px; font-weight: 700; color: var(--teal); letter-spacing: 0.3px; }
+.audio-jp { font-size: 18px; font-weight: 800; margin-top: 6px; color: #fff; }
+.audio-romaji { font-size: 13px; color: #67E8F9; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-top: 4px; }
+.audio-romaji b { background: rgba(251, 113, 133, 0.2); color: #FDA4AF; padding: 0 4px; border-radius: 4px; }
+.audio-meaning { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.play-btn {
+  align-self: flex-start; background: rgba(99,102,241,0.2); color: #C7D2FE; border: 1px solid rgba(99,102,241,0.4);
+  padding: 6px 14px; border-radius: 999px; font-size: 12.5px; font-weight: 700; cursor: pointer;
+}
+.audio-card.playing .play-btn { background: var(--teal); color: #042F2E; border-color: var(--teal); }
+.gallery-strip {
+  display: flex; gap: 16px; overflow-x: auto; padding: 8px 4px 16px; scroll-snap-type: x mandatory;
+}
+.shot-card {
+  flex: 0 0 230px; scroll-snap-align: start; background: var(--card); border: 1px solid var(--border);
+  border-radius: 20px; padding: 10px; text-align: center;
+}
+.shot-card.wide { flex: 0 0 330px; }
+.shot-card img { width: 100%; height: auto; border-radius: 14px; display: block; }
+.shot-cap { font-size: 12.5px; font-weight: 700; color: #CBD5E1; margin-top: 9px; }
+.bento { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.bento-card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 20px; }
+.bento-icon { font-size: 24px; margin-bottom: 10px; }
+.bento-card h3 { font-size: 17px; font-weight: 800; margin-bottom: 6px; color: #fff; }
+.bento-card p { font-size: 14px; color: var(--muted); }
+.doc-box { max-width: 780px; margin: 14px auto; background: var(--card); border: 1px solid var(--border); border-radius: 22px; padding: 28px; }
+.doc-box h1 { font-size: clamp(24px, 4vw, 36px); text-align: left; }
+.doc-item { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
+.doc-item h2 { font-size: 18px; margin-bottom: 6px; color: #E2E8F0; }
+.doc-item p { font-size: 14.5px; color: var(--muted); }
+footer {
+  max-width: 980px; margin: 36px auto 0; padding: 24px 18px 42px;
+  border-top: 1px solid var(--border);
+  display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+  color: var(--muted); font-size: 13px;
+}
+footer a { color: #CBD5E1; text-decoration: none; }
+footer a:hover { color: var(--teal); }
+@media (max-width: 680px) {
+  nav { border-radius: 22px; padding: 10px 14px; }
+  .nav-right { gap: 8px; }
+  .hero-cta .btn { width: 100%; justify-content: center; max-width: 300px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn, .audio-card { transition: none; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav aria-label="Main navigation">
+    <a class="brand" href="/?lang=es">
+      <img src="/images/icon.webp" alt="EnglishGo Icon" width="34" height="34">
+      <span>EnglishGo</span>
+    </a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="/privacy?lang=es">Privacidad</a>
+        <a href="/support?lang=es">Soporte</a>
+      </div>
+      <div class="lang-picker" role="navigation" aria-label="Language"><a href="/?lang=en">EN</a><a href="/?lang=zh-Hant">繁中</a><a href="/?lang=zh-Hans">简中</a><a href="/?lang=es" class="active">ES</a><a href="/?lang=ja">日本語</a></div>
+      <a class="nav-cta" href="/support?lang=es">Ver App</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="badge">15 LECCIONES · 44 IPA · 100 VÍDEOS DE VIAJE · TRADUCCIÓN EN VIVO</div>
+    <h1>Habla Inglés Claro <span>Antes de Aterrizar Tu Vuelo</span></h1>
+    <p class="hero-sub">Desde 44 fonemas IPA y 24 pares mínimos (ship/sheep, light/right) hasta 100 vídeos de diálogo real, rol práctico en 12 escenas y traducción de voz bidireccional al instante—sin cuentas ni rastreo.</p>
+    <div class="status-pill"> TestFlight y Próximamente en App Store · iPhone / iPad / iPhone Duo</div>
+    <div class="hero-cta">
+      <a class="btn btn-appstore" href="/support?lang=es"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span class="as-copy"><span class="as-sub">Próximamente en</span><span class="as-main">App Store</span></span></a>
+      <a class="btn btn-primary" href="#audio">▶ Escuchar Frases Reales</a>
+      <a class="btn btn-ghost" href="#preview">Ver Capturas ↓</a>
+    </div>
+  </section>
+
+  <section id="audio">
+    <div class="sec-head">
+      <div class="badge">AUDIO REAL DE ESTUDIO · FONÉTICA IPA</div>
+      <h2>Escucha Frases Reales de Viaje en Inglés</h2>
+      <p class="sec-sub">Clips MP3 reales incluidos dentro de EnglishGo con transcripción IPA americana clara y consejos útiles de gramática.</p>
+    </div>
+    <div class="audio-grid">
+        <article class="audio-card" id="card-0">
+          <div>
+            <div class="audio-tag">Restaurante · La cuenta</div>
+            <div class="audio-jp">Excuse me, could we get the check?</div>
+            <div class="audio-romaji">/ɪkˈskjuːz miː kʊd wiː ɡɛt ðə <b>tʃɛk</b>/</div>
+            <div class="audio-meaning">Disculpe, ¿nos trae la cuenta?</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p0','/audio/check_bill.mp3',this,document.getElementById('card-0'),'Reproducir','Sonando')">▶ Reproducir</button>
+        </article>
+        <article class="audio-card" id="card-1">
+          <div>
+            <div class="audio-tag">Cafetería · Pagos</div>
+            <div class="audio-jp">Do you take credit cards or Apple Pay?</div>
+            <div class="audio-romaji">/duː juː teɪk <b>ˈkrɛdɪt kɑːrdz</b> ɔːr ˈæpəl peɪ/</div>
+            <div class="audio-meaning">¿Aceptan tarjetas de crédito o Apple Pay?</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p1','/audio/credit_card.mp3',this,document.getElementById('card-1'),'Reproducir','Sonando')">▶ Reproducir</button>
+        </article>
+        <article class="audio-card" id="card-2">
+          <div>
+            <div class="audio-tag">Aeropuerto · Equipaje</div>
+            <div class="audio-jp">Which way is baggage claim?</div>
+            <div class="audio-romaji">/wɪtʃ weɪ ɪz <b>ˈbæɡɪdʒ kleɪm</b>/</div>
+            <div class="audio-meaning">¿Por dónde está el reclamo de equipaje?</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p2','/audio/baggage_claim.mp3',this,document.getElementById('card-2'),'Reproducir','Sonando')">▶ Reproducir</button>
+        </article>
+        <article class="audio-card" id="card-3">
+          <div>
+            <div class="audio-tag">Hotel · Enlace Check-in</div>
+            <div class="audio-jp">Hi, I&#x27;d like to check in, please.</div>
+            <div class="audio-romaji">/haɪ aɪd laɪk tuː <b>tʃɛk ɪn</b> pliːz/</div>
+            <div class="audio-meaning">Hola, me gustaría hacer el check-in, por favor.</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p3','/audio/check_in.mp3',this,document.getElementById('card-3'),'Reproducir','Sonando')">▶ Reproducir</button>
+        </article></div>
+  </section>
+
+  <section id="preview">
+    <div class="sec-head">
+      <div class="badge">CAPTURAS REALES · IPHONE E IPHONE DUO PLEGABLE</div>
+      <h2>Diseñada para Leer Cómodo a Una Mano</h2>
+      <p class="sec-sub">Tipografía grande ajustable y diseño vertical limpio, optimizado para iPhone, iPad 13&quot; y pantalla interior de iPhone Duo.</p>
+    </div>
+    <div class="gallery-strip">
+        <div class="shot-card">
+          <img src="/images/es_s01.webp" alt="Ruta en 15 Lecciones" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">Ruta en 15 Lecciones</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/es_s02.webp" alt="Tutor Oral (12 Escenas)" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">Tutor Oral (12 Escenas)</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/es_s03.webp" alt="Intérprete de Voz en Vivo" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">Intérprete de Voz en Vivo</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/es_s04.webp" alt="100 Vídeos Reales" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">100 Vídeos Reales</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/es_s05.webp" alt="44 IPA y Pares Mínimos" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">44 IPA y Pares Mínimos</div>
+        </div>
+        <div class="shot-card wide">
+          <img src="/images/es_duo.webp" alt="Pantalla Interior iPhone Duo" loading="lazy" width="760" height="1080">
+          <div class="shot-cap">Pantalla Interior iPhone Duo</div>
+        </div></div>
+  </section>
+
+  <section id="features">
+    <div class="sec-head">
+      <div class="badge">CINCO MÓDULOS INTEGRADOS</div>
+      <h2>Todo lo Esencial en Una App Privada y Sin Registro</h2>
+    </div>
+    <div class="bento">
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">📚</div>
+          <h3>15 Lecciones Prácticas y 18 Pruebas</h3>
+          <p>Avanza desde vocales, consonantes (th, l/r, v/w) y enlaces hasta cafeterías, restaurantes, aduana, hotel y farmacia.</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🔊</div>
+          <h3>Laboratorio de 44 IPA + 24 Pares Mínimos</h3>
+          <p>Alterna entre IPA de EE. UU. y Reino Unido con guía de lengua/labios y tests auditivos a ciegas.</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🎬</div>
+          <h3>100 Vídeos de Diálogos Reales de Viaje</h3>
+          <p>Cinco categorías reales con 200 grabaciones nativas, subtítulos bilingües, IPA y consejos culturales.</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">💬</div>
+          <h3>Tutor Oral (12 Escenas) + Intérprete en Vivo</h3>
+          <p>El personal inicia el diálogo y las pistas quedan visibles al hablar; traducción instantánea Español / 繁中 / 简中 / 日本語 ↔ English.</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">✍️</div>
+          <h3>160 Tarjetas SRS y 320 Audios</h3>
+          <p>Repetición espaciada SM-2, 4 modos de test auditivo y lector, y letra Estándar, Grande o Extra grande.</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🔒</div>
+          <h3>Sin Registro · Privacidad Total</h3>
+          <p>Sin cuentas, sin anuncios ni SDKs de rastreo. Todo tu progreso se queda únicamente en tu iPhone o iPad.</p>
+        </article></div>
+  </section>
+
+  <section id="pricing">
+    <div class="sec-head">
+      <div class="badge">SIN SUSCRIPCIONES · EMPIEZA GRATIS</div>
+      <h2>Gratis para Empezar. $3.99 Pago Único.</h2>
+      <p class="sec-sub">Domina los 44 fonemas IPA y frases clave gratis, y desbloquea todo para siempre con una sola compra.</p>
+    </div>
+    <div class="pricing-grid">
+      <article class="price-card">
+        <div>
+          <div class="price-head">
+            <div>
+              <div class="price-tag">ENGLISHGO FREE</div>
+              <div class="price-title">Gratis para Siempre</div>
+            </div>
+            <div class="price-num">$0</div>
+          </div>
+          <ul class="price-list" style="margin-top:16px;"><li><span class="chk">✓</span><span>Tabla completa de 44 fonemas US/UK IPA y 24 pares mínimos</span></li><li><span class="chk">✓</span><span>160 tarjetas SRS (320 audios) y 18 ejercicios de gramática</span></li><li><span class="chk">✓</span><span>Lecciones 1–3 y 10 vídeos reales (2 por categoría)</span></li><li><span class="chk">✓</span><span>Cuota diaria gratis de Tutor Oral (5/día) e Intérprete (8/día)</span></li></ul>
+        </div>
+        <a class="btn btn-ghost" style="justify-content:center;" href="/support?lang=es">Ver TestFlight y Soporte</a>
+      </article>
+      <article class="price-card pro">
+        <div>
+          <div class="price-head">
+            <div>
+              <div class="price-tag">PAGO ÚNICO · SIN SUSCRIPCIÓN</div>
+              <div class="price-title">EnglishGo Pro De Por Vida</div>
+            </div>
+            <div class="price-num">$3.99</div>
+          </div>
+          <ul class="price-list" style="margin-top:16px;"><li><span class="chk">✓</span><span>Las 15 lecciones guiadas de viaje (4–15 desbloqueadas)</span></li><li><span class="chk">✓</span><span>Los 100 vídeos de diálogo real y 200 audios nativos</span></li><li><span class="chk">✓</span><span>Práctica oral ilimitada en los 12 escenarios</span></li><li><span class="chk">✓</span><span>Intérprete de voz bidireccional sin límites (uso offline)</span></li></ul>
+        </div>
+        <a class="btn btn-appstore" href="/support?lang=es"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span class="as-copy"><span class="as-sub">Próximamente en</span><span class="as-main">App Store</span></span></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <img src="/images/icon.webp" alt="EnglishGo" width="64" height="64">
+    <h2>¿Listo para Tu Próximo Viaje?</h2>
+    <p>Sin crear cuenta: entrena tu oído, diálogos reales y traductor offline en una sola app.</p>
+    <a class="btn btn-appstore" href="/support?lang=es"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span class="as-copy"><span class="as-sub">Próximamente en</span><span class="as-main">App Store</span></span></a>
+  </section>
+</main>
+
+<footer>
+  <div>© 2026 AE Interactive. Todos los derechos reservados.</div>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;">
+    <a href="/?lang=es">EnglishGo</a>
+    <a href="https://github.com/movemove/EnglishGo" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="/privacy?lang=es">Privacidad</a>
+    <a href="/support?lang=es">Soporte</a>
+    <a href="https://appengine.fun" target="_blank" rel="noopener noreferrer">Estudio AE Interactive</a>
+    <a href="mailto:help@appengine.fun">help@appengine.fun</a>
+  </div>
+</footer>
+<script>
+const audioMap = {};
+let activeKey = null;
+function togglePhrase(key, src, btnEl, cardEl, playLabel, playingLabel) {
+  if (activeKey && activeKey !== key && audioMap[activeKey]) {
+    audioMap[activeKey].audio.pause();
+    audioMap[activeKey].audio.currentTime = 0;
+    audioMap[activeKey].btn.textContent = "▶ " + playLabel;
+    audioMap[activeKey].card.classList.remove("playing");
+  }
+  let item = audioMap[key];
+  if (!item) {
+    const a = new Audio(src);
+    item = { audio: a, btn: btnEl, card: cardEl };
+    a.addEventListener("ended", () => {
+      btnEl.textContent = "▶ " + playLabel;
+      cardEl.classList.remove("playing");
+      if (activeKey === key) activeKey = null;
+    });
+    audioMap[key] = item;
+  }
+  if (!item.audio.paused) {
+    item.audio.pause();
+    item.audio.currentTime = 0;
+    btnEl.textContent = "▶ " + playLabel;
+    cardEl.classList.remove("playing");
+    activeKey = null;
+  } else {
+    item.audio.play();
+    btnEl.textContent = "■ " + playingLabel;
+    cardEl.classList.add("playing");
+    activeKey = key;
+  }
+}
+</script>
+</body>
+</html>
