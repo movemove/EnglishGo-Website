@@ -3,6 +3,7 @@
 Official marketing, studio audio & IPA preview, privacy policy, and support website for **EnglishGo** ([AE Interactive](https://appengine.fun)).
 
 - **Live Website:** https://englishgo.appengine.fun
+- **App Store (In Review):** https://apps.apple.com/app/id6837609680
 - **Privacy Policy:** https://englishgo.appengine.fun/privacy
 - **Support:** https://englishgo.appengine.fun/support
 - **App Source Repo:** https://github.com/movemove/EnglishGo
